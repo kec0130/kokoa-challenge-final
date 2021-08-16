@@ -3,9 +3,9 @@
 }
 
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 40px;
   border-top: var(--main-border);
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .more-suggestions__title {
@@ -14,10 +14,10 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: #2e363e;
   border-radius: 10px;
   display: flex;
   justify-content: center;

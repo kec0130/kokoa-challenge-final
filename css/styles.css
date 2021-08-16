@@ -21,11 +21,24 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+html {
+  background-color: var(--bg-dark);
+}
+
 body {
-  color: #2e363e;
+  color: var(--font-color);
   font-family: "Open Sans", sans-serif;
+}
+
+.status-bar {
+  background-color: black;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+i:hover {
+  cursor: pointer;
+  color: white;
 }

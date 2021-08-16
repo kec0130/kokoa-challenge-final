@@ -1,17 +1,19 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin: 100px 0px 100px 0px;
+  padding: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--bg-light);
 }
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
 }
 .welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
+  width: 80%;
+  opacity: 0.8;
 }
 
 #login-form {
@@ -24,24 +26,27 @@
   border: none;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid var(--bar-color);
   transition: border-color 0.3s ease-in-out;
+  background-color: var(--bar-color);
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-color);
+  padding-left: 15px;
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--font-color);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--bg-dark);
+  color: var(--font-color);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -50,6 +55,6 @@
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: inherit;
+  color: var(--font-color);
   font-size: 13px;
 }

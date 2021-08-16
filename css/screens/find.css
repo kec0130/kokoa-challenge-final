@@ -1,26 +1,28 @@
 .recommended-friends {
   margin: 25px 0px;
-  padding: 25px 0px;
+  padding: 25px 0px 0px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
+
 .recommended-friends__title {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  opacity: 0.5;
+  margin-bottom: 30px;
 }
 
-.recommended-friends span {
+/* .recommended-friends span {
   margin: 100px 0;
   display: block;
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  opacity: 0.8;
+  opacity: 0.5;
   margin-bottom: 25px;
 }
 
@@ -54,7 +56,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
 .open-post__member-count {
@@ -65,8 +67,8 @@
 .open-post__members .divider {
   width: 2px;
   height: 15px;
-  margin: 0 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 7px;
+  background-color: var(--bar-color);
 }
 
 .open-post__member-status {
@@ -85,7 +87,7 @@
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 5px;
+  padding: 5px 8px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -96,7 +98,7 @@
 }
 
 .open-post__heart-count span {
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 @keyframes heartBeat {

@@ -4,19 +4,19 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Friends - Sherlock Talk</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>T-Mobile</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -27,12 +27,14 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
     <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-info-circle"></i>Friends' Names Display
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
@@ -40,38 +42,85 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars3.githubusercontent.com/u/3612017"
+            src="img/sherlock-profile.jpeg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h4 class="user-component__title">Sherlock Holmes</h4>
+            <h6 class="user-component__subtitle">
+              The best detective in the world
+            </h6>
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
+      <div class="friends-screen__friends">
+        <div class="friends-screen__friends-header">
+          <span>Friends</span>
           <i class="fas fa-chevron-up fa-xs"></i>
         </div>
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars3.githubusercontent.com/u/3612017"
+              src="img/watson-profile.jpeg"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Channel
+                John Watson
               </h4>
             </div>
           </div>
           <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+            <span>Best Friend</span>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/microft-profile.jpeg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Mycroft Holmes
+              </h4>
             </div>
+          </div>
+          <div class="user-component__column">
+            <span>Brother</span>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/moriarty-profile.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Jim Moriarty
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>Villain</span>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/molly-profile.jpeg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Molly Hooper
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>Just Friend</span>
           </div>
         </div>
       </div>
@@ -86,7 +135,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">2</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -103,11 +152,11 @@
       </ul>
     </nav>
     <div id="splash-screen">
-      <i class="fas fa-comment"></i>
+      <img src="img/sherlock-silhouette.png" />
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big 😭</span>
+      <span>Please adjust the screen size<br />to fit your mobile device.</span>
     </div>
 
     <script
