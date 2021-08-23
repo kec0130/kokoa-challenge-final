@@ -28,6 +28,7 @@ html {
 body {
   color: var(--font-color);
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 100px;
 }
 
 .status-bar {
